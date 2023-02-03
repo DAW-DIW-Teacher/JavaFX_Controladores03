@@ -12,7 +12,7 @@ public class Main extends Application {
     public void start(Stage stage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(Main.class.getResource("escenaA.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 500, 500);
-        stage.setTitle("Ejemplo de singelton");
+        stage.setTitle("Ejemplo de comunicación entre controladores con carga manual");
         stage.setScene(scene);
         stage.show();
     }
